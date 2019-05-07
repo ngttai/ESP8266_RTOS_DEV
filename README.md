@@ -41,7 +41,7 @@
 ## Build the toolchain
     mkdir -p $HOME/esp
     cd $HOME/esp
-    git clone -b lx106-g++ git://github.com/jcmvbkbc/crosstool-NG.git
+    git clone -b lx106-g++ https://github.com/jcmvbkbc/crosstool-NG.git
 
     cd crosstool-NG
     /bootstrap && ./configure --prefix=`pwd` && make && make install
